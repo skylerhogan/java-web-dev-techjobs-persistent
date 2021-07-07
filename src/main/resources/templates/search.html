@@ -14,10 +14,11 @@
         <h2>Search by:</h2>
 
         <p>
-            <span th:each="column : ${columns}">
+            <span th:each="column : ${columns}" class="form-check">
                 <input
                         type="radio"
                         name="searchType"
+                        class="form-check-input"
                         th:id="${column.key}"
                         th:value="${column.key}"
                         th:checked="${column.key == 'all'}"/>
