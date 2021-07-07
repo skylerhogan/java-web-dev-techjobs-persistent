@@ -5,7 +5,7 @@ I built this app as a part of LaunchCode coursework. It allows staffers to creat
 ## Current State
 
 This Spring Boot application was built with Gradle and features stands object-relational mapping, or ORM, where objects are used to connect the programming language to a database on a local machine.
-Through integration with MySQL user-created job data can be accessed and stored.
+User-created job data can be accessed and stored via integration with MySQL.
 
 ## Future Implementation
 
